@@ -1,0 +1,180 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 7483698100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Launch chrome browser and load url",
+            "match": {
+              "location": "StepDefinitionWalmart.launch_chrome_browser_and_load_url()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1323100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeMethod()"
+            }
+          }
+        ],
+        "line": 8,
+        "name": "One",
+        "description": "",
+        "id": "login-walmart;one",
+        "after": [
+          {
+            "result": {
+              "duration": 16241382800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.AfterMethod()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3667060400,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Click women and hoodies",
+            "match": {
+              "location": "StepDefinitionWalmart.click_women_and_hoodies()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1343365400,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "click size and choose s",
+            "match": {
+              "location": "StepDefinitionWalmart.click_size_and_choose_s()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 292328100,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Click autumn and click purple",
+            "match": {
+              "location": "StepDefinitionWalmart.click_autumn_and_click_purple()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 3602925200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Launch chrome browser and load url",
+            "match": {
+              "location": "StepDefinitionWalmart.launch_chrome_browser_and_load_url()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 134900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeMethod()"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "Two",
+        "description": "",
+        "id": "login-walmart;two",
+        "after": [
+          {
+            "result": {
+              "duration": 16196027600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.AfterMethod()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3657134500,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "Click men and tees",
+            "match": {
+              "location": "StepDefinitionWalmart.click_men_and_tees()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.AssertionError\r\n\tat org.junit.Assert.fail(Assert.java:86)\r\n\tat org.junit.Assert.assertTrue(Assert.java:41)\r\n\tat org.junit.Assert.assertTrue(Assert.java:52)\r\n\tat walmart.com.StepDefinitionWalmart.click_colour_and_size_s(StepDefinitionWalmart.java:54)\r\n\tat ✽.click colour and size s(E:/Tharini/Eclips WorkSpace/walmart.com/src/test/resources/Features/LoginPage.feature:17)\r\n",
+              "duration": 3035027700,
+              "status": "failed"
+            },
+            "line": 17,
+            "name": "click colour and size s",
+            "match": {
+              "location": "StepDefinitionWalmart.click_colour_and_size_s()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Login Walmart",
+    "description": "",
+    "id": "login-walmart",
+    "keyword": "Feature",
+    "uri": "E:/Tharini/Eclips WorkSpace/walmart.com/src/test/resources/Features/LoginPage.feature",
+    "tags": []
+  }
+]
